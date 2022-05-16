@@ -1,0 +1,35 @@
+
+OAuth - Open Authorisation
+
+-->The main purpose of Oauth is, when a website wants to use the services of other —such as Bitly posting to your Twitter stream—instead of asking you to share your password, they should use a protocol called OAuth instead.
+
+-->OAuth doesn’t share password data but instead uses authorization tokens to prove an identity between consumers and service providers.
+
+
+-->Why OAuth is Authorisation not Authentication?
+         OAuth doesn't share password data but instead uses authorization tokens to prove an identity between consumers and service providers.
+         
+         
+-->Real Life Example OAuth:
+
+         Facebook apps are a good OAuth use case example. Say you’re using an app on Facebook, and it asks you to share your profile and pictures. Facebook is, in this case, the service provider: it has your login data and your pictures. The app is the consumer, and as the user, you want to use the app to do something with your pictures. You specifically gave this app access to your pictures, which OAuth is managing in the background.
+         
+         
+-->OAuth is about authorization and not authentication. Authorization is asking for permission to do stuff. 
+
+-->Authentication is about proving you are the correct person because you know things. OAuth doesn’t pass authentication data between consumers and service providers – but instead acts as an AUTHORIZATION TOKEN of sorts.
+
+
+-->Common Example-OAuth:
+         
+         The common analogy I’ve seen used while researching OAuth is the valet key to your car. The valet key allows the valet to start and move the car but doesn’t give them access to the trunk or the glove box.
+         
+         
+-->Main 3 Terms in OAuth:
+
+        1.User
+        2.Consumer
+        3.Service Provider
+        
+       
+
